@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import  ThemeToggle  from "./ThemeToggle"; // import your toggle
+import  ThemeToggle  from "./themeToggle.jsx"; // import your toggle
 
 const navItems = [
   { name: "Home", href: "#hero" },
