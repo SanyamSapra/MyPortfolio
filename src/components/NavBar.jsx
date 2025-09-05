@@ -24,6 +24,7 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  let name =`Sanyam's`;
   return (
     <nav
       className={cn(
@@ -38,7 +39,7 @@ export const NavBar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground">Sanyam's</span> Portfolio
+            <span className="text-glow text-foreground"><div>{name}</div></span> Portfolio
           </span>
         </a>
 
