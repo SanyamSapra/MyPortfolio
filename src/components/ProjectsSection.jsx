@@ -7,8 +7,8 @@ const projects = [
     description: "A attractive Portfolio website using React and Tailwind",
     image: "/Projects/Picture2.png",
     tags: ["React", "Tailwind"],
-    demoUrl: '#',
-    githubUrl: '#',
+    demoUrl: 'https://myportfolio-zmpm.onrender.com/',
+    githubUrl: '#https://github.com/SanyamSapra/MyPortfolio',
   },
 ];
 
