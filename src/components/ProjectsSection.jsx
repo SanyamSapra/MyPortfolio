@@ -8,7 +8,7 @@ const projects = [
     image: "/Projects/Picture2.png",
     tags: ["React", "Tailwind"],
     demoUrl: 'https://myportfolio-zmpm.onrender.com/',
-    githubUrl: '#https://github.com/SanyamSapra/MyPortfolio',
+    githubUrl: 'https://github.com/SanyamSapra/MyPortfolio',
   },
 ];
 
