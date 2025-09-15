@@ -3,20 +3,20 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Programming Languages
-  { name: "Java", level: 85, category: "languages" },
-  { name: "C++", level: 60, category: "languages" },
+  { name: "Java", level: 65, category: "languages" },
+  { name: "C++", level: 50, category: "languages" },
 
   // Frontend
-  { name: "HTML", level: 95, category: "frontend" },
-  { name: "CSS", level: 90, category: "frontend" },
-  { name: "JavaScript", level: 85, category: "frontend" },
+  { name: "HTML", level: 70, category: "frontend" },
+  { name: "CSS", level: 70, category: "frontend" },
+  { name: "JavaScript", level: 60, category: "frontend" },
   { name: "React", level: 40, category: "frontend" }, // still learning
 
   // Backend & Database
   { name: "MySQL", level: 70, category: "backend" },
 
   // Tools
-  { name: "VS Code", level: 90, category: "tools" },
+  { name: "VS Code", level: 80, category: "tools" },
 ];
 
 const categories = ["all", "languages", "frontend", "backend", "tools"];

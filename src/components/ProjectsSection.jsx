@@ -10,6 +10,15 @@ const projects = [
     demoUrl: 'https://myportfolio-zmpm.onrender.com/',
     githubUrl: 'https://github.com/SanyamSapra/MyPortfolio',
   },
+  {
+    id: 2,
+    title: "Employee Management System",
+    description: "A role-based EMS with task assignment and progress tracking built in React & Tailwind.",
+    image: "/Projects/Project2.png",
+    tags: ["React", "Tailwind"],
+    demoUrl: '',
+    githubUrl: 'https://github.com/SanyamSapra/Employee-Management-System',
+  },
 ];
 
 export const ProjectsSection = () => {
@@ -34,7 +43,7 @@ export const ProjectsSection = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-center transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
 
@@ -73,6 +82,8 @@ export const ProjectsSection = () => {
             </div>
           ))}
         </div>
+
+        
 
         <div className="text-center mt-12">
           <a
