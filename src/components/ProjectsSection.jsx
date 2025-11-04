@@ -10,15 +10,7 @@ const projects = [
     demoUrl: 'https://myportfolio-zmpm.onrender.com/',
     githubUrl: 'https://github.com/SanyamSapra/MyPortfolio',
   },
-  {
-    id: 2,
-    title: "Employee Management System",
-    description: "A role-based EMS with task assignment and progress tracking built in React & Tailwind.",
-    image: "/Projects/Project2.png",
-    tags: ["React", "Tailwind"],
-    demoUrl: 'https://ems-6ahr.onrender.com/',
-    githubUrl: 'https://github.com/SanyamSapra/Employee-Management-System',
-  },
+  
 ];
 
 export const ProjectsSection = () => {
